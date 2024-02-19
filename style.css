@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Playfair Display", serif;
+    font-style: normal;
+
+}
+/* small screen */
+/* home */
+.home{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center  center;
+    height: 100vh;
+    position: relative;
+}
+.nav{
+ padding-top: 50px;
+ width: 80%;
+ margin:auto ;
+
+}
+.logo{
+    float: left;
+
+}
+
+.navbutton{
+    float: right;
+    display: block;
+    background-color: #e4c290;
+    color: black;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 700;
+    
+
+}
+    /* home navlist */
+.right{
+    float: right;
+   display: none;
+}
+/* menue & home & about */
+/* small button clr */
+small{
+    color:#e4c290 ;
+    font-weight:700;
+    font-size: 12px;
+    line-height:30px;
+   
+
+}
+
+.clr{
+    clear: both;
+}
+
+
+/* home caption */
+.caption{
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left:50% ;
+    transform: translate(-50% , -50%);
+    color: white;
+}
+
+.caption h1 {
+    color: white;
+    font-weight:400;
+    font-size: 32px;
+    line-height:30px;
+    padding-top: 10px ;
+    
+}
+ .caption p ,.menue-caption p {
+    color: white;
+    font-weight:400;
+    font-size: 18px;
+    line-height:32px;
+    padding: 10px 0;  
+}
+.caption button,.about-caption button {
+    font-weight:600;
+    font-size: 13px;
+    font-family: Arial;
+    background-color: transparent;
+    color: #e4c290;
+    border: 2px solid  black;
+    padding: 20px;
+    margin-top: 15px;
+    transition: all .4s;
+
+}
+/* about button */
+.about-caption button{
+    border: 2px solid  rgba(77, 76, 76, 0.37);
+}
+.caption button:hover, .about-caption button:hover {
+    color:black;
+    background-color:  #e4c290; 
+}
+
+/* menue */
+.menue{
+    background-color:black;
+    padding-top: 100px;
+ 
+}
+.menue-caption ,.chef-caption{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.menue-caption h1 , .about-caption h2,.chef-caption h1 ,.contact-us h2{
+    color: white;
+    font-weight:700;
+    font-size: 24px;
+    line-height:30px;
+    padding: 10px 0 ;
+}
+
+.menue-card{
+    padding:10px;
+}
+.menue-card h4{
+font-weight: 700;
+font-size: 18px;
+color: white;
+padding: 10px 0 ;
+
+}
+.menue-card a{
+    text-decoration: none;
+    color:#e4c290;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* menue  */
+.menue-img ,.chef-img{
+    width: 50%;
+    margin: auto; 
+    text-align: center;
+   
+}
+
+/* About */
+.about{
+background-color: black;
+padding: 30px 0 100px;
+}
+
+.about .container,.our-chefs .container{
+    width: 80%;
+    margin: auto;
+    /* padding: 10px 0; */
+    
+
+}
+
+.about-caption ,.contact-form{
+    text-align: center;
+}
+
+.about-caption p{
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height:32px;
+    padding-top: 10px;
+
+
+}
+.about-caption h4 {
+Color:#e4c290;
+font-weight: 400;
+font-size:18px;
+line-height:32px;
+
+
+}
+.about-caption h5{
+    Color:#e4c290;
+    font-weight: 400;
+    font-size:16px;
+    line-height:32px;
+    
+    }
+.about-img,.contact-img ,.chef-img{
+    width: 100%;
+   margin-top: 15px;
+    
+} 
+
+/* chef */
+.our-chefs{
+    background-color:rgba(0, 0, 0, .9);
+    padding-top: 10px ;
+}
+.chef-card h4{
+    color:white;
+    font-weight: 700;
+    font-size: 19px;
+    line-height:32px;
+    padding-top: 5px ; 
+}
+.chef-card p{
+    color:white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:32px;
+    padding: 5px 0; 
+}
+/* contact  */
+.contact-us .container ,.our-chefs .container{
+width: 80%;
+margin:auto ;
+text-align: center;
+}
+.contact-form {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-btn{
+    background-color: #e4c290;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height:32px;
+    font-family: Arial;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all .4s
+  
+}
+.form-btn:hover{
+color:white ;
+background-color: transparent;
+border: 1px solid #e4c290;;
+
+}
+
+.contact-form input{
+    width: 100%;
+    background-color: transparent;
+    color:#9d9d9d ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:32px;
+    font-family: Arial;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid  #9d9d9d;
+
+
+}
+
+/* footer */
+.footer ,.contact-us{
+    background-color: black;
+    padding: 10px;
+}
+.footer p ,.contact-us p{
+    color:#9d9d9d;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:32px;
+    text-align: center;
+
+}
+@media screen and (min-width:992px){
+    /* home navbar */
+    .right{
+        float: right;
+        display: block;
+    }
+    .right a{
+        text-decoration:none;
+        color:white;
+        font-size:large;
+        font-weight: 400; 
+        padding: 12px;
+    }
+    .right a:hover{
+        background-color: rgb(228, 194, 144);
+    }
+
+    .navbutton{
+        display: none;
+    }
+
+
+    .menue-card ,.chef-card{
+        width: 33.33%;
+        float: left;
+        padding:10px ;
+        text-align: center;
+      
+    }
+
+    .menue-img {
+        width: 80%;
+        margin: auto; 
+        text-align: center;
+        padding: 10px;
+    }
+    .chef-img{
+        width: 100%;
+    }
+    .menue-caption h1 , .about-caption h2,.chef-caption h1,.contact-us h2{
+        font-size: 32px;
+        
+
+}
+
+.about-caption ,.contact-form{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.contact-img,.about-img {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    text-align: center;
+}
+
+}
+/* @media screen and (min-width:768px)and (max-width:992px)  {}
+@media screen and (min-width:500px)and (max-width:768px){} 
+@media screen and (min-width:360px)and (max-width:500px){} */
